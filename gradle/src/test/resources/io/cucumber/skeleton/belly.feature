@@ -1,6 +1,7 @@
-Feature: Belly
+Feature: Test events
 
-  Scenario: a few cukes
-    Given I have 42 cukes in my belly
-    When I wait 1 hour
-    Then my belly should growl
+  Scenario: One
+    When I wait for 5 seconds
+
+  Scenario: Two
+    When I wait for 5 seconds
